@@ -1,0 +1,637 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	border: 0;
+	background: #1A1A1B;
+	font-family: 'Open Sans', sans-serif;
+	background-image:  url("images/audio-mixer-close-up-console-323687.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo {
+	background: #242424;
+}
+
+.logo ul li a {
+	color: #fff;
+	font-size: 20px;
+	margin: 20px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.logo ul li {
+	list-style: none;
+	margin: 20px;
+	float: left;
+}
+
+ul li a:hover {
+	background: #1A52C9;
+}
+
+ul li a:active {
+	background: rgba(150,150,150,1.00);
+}
+
+.kontaktfb a {
+	text-decoration: none;
+	Color: #FFF;
+}
+
+.fa-facebook-square:hover {
+	background: #123467;
+}
+
+.fa-instagram:hover {
+	background: #833AB4;
+}
+
+.fa-soundcloud:hover {
+	background: #ff7700;
+}
+
+.wrapper {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	width: 100%;
+  position: relative;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+form  {
+	margin-top: 50px;
+}
+
+.aboutpocetna {
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px 30px;
+	background: rgba(36,36,36,0.60);
+	text-align: justify;
+}
+
+.content {
+	background: rgba(36,36,36,0.60);
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+.hiphop h2,.trap h2, .house h2 {
+	color: #fff;
+	margin: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.hiphoparticle, .traparticle, .housearticle {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+}
+
+.hiphop h2, .trap h2, .house h2 {
+	border-bottom: solid 3px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+.cetiri {
+	display: flex;
+	justify-content:space-between;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+	
+}
+
+.jedan, .dva, .tri, .cetvrta  {
+	background: rgba(36,36,36,0.90);
+	color: #FFF;
+	flex-basis: 250px;
+	padding: 20px;
+	border: #fff solid;
+}
+.jedan a, .dva a, .tri a, .cetvrta a{
+	text-decoration: none;
+	padding: 15px;
+	height: 20px;
+	color: #FFF;
+	border: solid 1px;
+}
+
+.jedan a:hover, .dva a:hover, .tri a:hover, .cetvrta a:hover {
+	background: #1A52C9;
+	color: #FFF;
+}
+
+
+.klik {
+	margin: 30px;
+}
+
+.footer {
+	background: #242424;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+}
+
+.footer p {
+	float:right;
+	color: #FFF;
+	margin: 40px;
+}
+
+.container {
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 150px;
+	border-radius: 5px;
+  background-color: rgba(36,36,36,0.80);
+  padding: 20px;
+	color: #FFF;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Open Sans';
+}
+
+.kontaktfb {
+	padding-top: 50px;
+}
+
+.kontaktfb i {
+	font-size: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+background: rgba(36,36,36,0.50);
+	color:#FFF;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.about {
+	width: 800px;
+	margin: 0 auto;
+	color: #FFF;
+	background: rgba(36,36,36,0.50);
+	padding: 20px;
+	text-align: justify;
+}
+
+.about h2 {
+	text-align: center;
+}
+
+.about img {
+	width: 100%;
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+	
+	.mySlides img {
+  	width: 100%;		
+	}
+	.sidebarright{
+		font-size: 10px;
+	}
+	
+	.article {
+		margin: 30px;
+	}
+}
+
+@media screen and (min-width:1281px) and (max-width:1440px) {
+	.mySlides img {
+  	width: 100%;		
+	}	
+	.sidebarright{
+		font-size: 10px;
+	}
+	.article {
+		margin: 30px;
+	}
+	
+	.content {
+		width: 80%;
+	}
+	.hiphoparticle iframe, .traparticle iframe, .housearticle iframe {
+		width: 250px;	
+ 	}
+	
+	.cover img {
+		width: 100%;
+	}
+	
+	.kontaktform {
+		width: 700px;
+	}
+	
+	.kontaktfb {
+		padding-left: 20px;
+	}
+	
+	h3 {
+		color: #fff;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+	.logo img {
+	margin-left: 30px;
+}
+	
+	.mySlides img {
+  	width: 100%;
+	}
+	
+	.sidebarright {
+		display: none;
+	}
+	
+	.article {
+		width: 550px;
+		margin: 0 auto;
+	}
+	
+	.sidebarleft {
+	display: none;
+	}
+	
+	.hiphoparticle, .traparticle, .housearticle {
+		flex-wrap: wrap; 
+	}
+	
+	.hiphoparticle iframe, .traparticle iframe, .housearticle iframe {
+		margin-bottom: 20px;
+		width: 350px;
+	}
+	
+	.klik {font-size: 12px;}
+	
+	.cover img {
+		width: 100%;
+	}
+	
+	.kontaktform {
+		width: 700px;
+	}
+	
+	.kontaktfb {
+		padding-left: 20px;
+	}
+	
+	h3 {
+		color: #fff;
+		text-align: center;
+	}
+	
+	
+}
+	
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	.mySlides img {
+  	width: 100%;
+	}
+	.sidebarright {
+		display: none;
+	}
+	.sidebarleft {
+	display: none;
+	}
+	.article {
+		width: 550px;
+		margin: 0 auto;
+	}
+	
+	.logo ul li a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0px;
+	}
+	
+	.container {
+		width:100%;
+	}
+	
+	.about {
+		width: 80%;
+	}
+	
+	.hiphoparticle, .traparticle, .housearticle {
+		flex-wrap: wrap; 
+	}
+	
+	.hiphoparticle iframe, .traparticle iframe, .housearticle iframe {
+		margin-bottom: 20px;
+		width: 250px;
+	}
+	
+	.klik {
+		font-size: 12px;}
+	
+	.cetiri {
+		flex-wrap: wrap;
+	}
+	
+	.jedan, .dva {
+		margin-bottom: 20px;
+	}
+	
+	.cover img {
+		width: 100%;
+	}
+	
+	.about {
+		font-size: 14px;
+	}
+	
+	.kontaktform {
+		width: 700px;
+	}
+	
+	.kontaktfb {
+		padding-left: 20px;
+	}
+	
+	h3 {
+		color: #fff;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (min-width:425px) and (max-width:767px)
+{
+	
+	.logo ul {
+		padding: 0;
+		width: 350px;
+	}
+	
+	.logo ul li {
+		padding: 0px;
+		margin: 0px;
+		display: flex;
+	}
+
+	.mySlides img {
+	width: 100%;
+}
+	.sidebarright {
+		display: none;
+	}
+	.sidebarleft {
+	display: none;
+	}
+	.article {
+		width: 550px;
+		margin: 0 auto;
+	}
+	.logo ul li a {
+	color: #fff;
+	font-size: 14px;
+	margin: 13px;
+	margin-top: 25px;
+	text-decoration: none;
+	padding: 0px;
+	}
+	
+	.articles {
+		width: 100%;
+	}
+	
+	.container {
+		width:100%;
+	}
+	
+	.about {
+		width: 80%;
+	}
+	
+	.hiphoparticle, .traparticle, .housearticle {
+		flex-wrap: wrap; 
+	}
+	
+	.hiphoparticle iframe, .traparticle iframe, .housearticle iframe {
+		margin: 5px auto;
+		width: 280px;
+	}
+	
+	.klik {
+		font-size: 12px;}
+	
+	.cetiri {
+		flex-wrap: wrap;
+	}
+	
+	.jedan, .dva, .tri, .cetvrta {
+		margin: 20px auto;
+		
+	}
+	
+	.aboutpocetna p {
+		font-size: 14px;
+	}
+	
+	.cover img {
+		width: 100%;
+	}
+	
+	.about {
+		font-size: 14px;
+	}
+	
+	.kontaktform {
+		width: 700px;
+	}
+	
+	.kontaktfb {
+		padding-left: 20px;
+	}
+	
+	.kontaktfb i {
+		font-size: 20px;
+	}
+	
+	.kontaktfb h2 {
+		font-size: 20px;
+		color: #fff;
+	}
+	
+	h3 {
+		color: #fff;
+		text-align: center;
+	}
+	
+
+}
+
+@media screen and (max-width:424px) {
+	
+	.mySlides img {
+	width: 100%;
+}
+	
+	.sidebarright {
+		display: none;
+	}
+	.sidebarleft {
+	display: none;
+	}
+	
+	.article {
+		width: 550px;
+		margin: 0 auto;
+		padding: 0px;
+		margin-top: 20px;
+	}
+	
+	.logo ul li a {
+	font-size: 16px;
+	}
+	
+	.logo ul {
+		padding: 0;
+	}
+	
+	.logo img {
+	margin-top: 50px;
+	}
+	
+	.articles {
+	width: 100%;
+	}
+	
+	.container {
+		width:100%;
+	}
+	
+	.about {
+		width: 80%;
+	}
+	
+	.footer p {
+		font-size: 12px;
+	}
+	
+	.hiphoparticle, .traparticle, .housearticle {
+		flex-wrap: wrap; 
+	}
+	
+	.hiphoparticle iframe, .traparticle iframe, .housearticle iframe {
+		margin: 5px auto;
+		width: 200px;
+	}
+	
+	.klik {
+		font-size: 12px;}
+	
+	.cetiri {
+		flex-wrap: wrap;
+	}
+	
+	.jedan, .dva, .tri, .cetvrta {
+		margin: 20px auto;
+		
+	}
+	
+	.aboutpocetna p {
+		font-size: 14px;
+	}
+	
+	.cover img {
+		width: 100%;
+	}
+	
+	.about {
+		font-size: 14px;
+	}
+	
+	
+	.kontaktform {
+		width: 700px;
+	}
+	
+	.kontaktfb {
+		padding-left: 20px;
+	}
+	
+	.kontaktfb i {
+		font-size: 20px;
+	}
+	
+	.kontaktfb h2 {
+		font-size: 20px;
+		color: #fff;
+	}
+	
+	h3 {
+		color: #fff;
+		text-align: center;
+	}
+	
+
+}
